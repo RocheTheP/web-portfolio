@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Full Stack Web Developer</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Farsan&display=swap" rel="stylesheet">	
+</head>
+<body>
+	<!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container">
+            <!-- Logo -->
+            <!-- Toggle Btn -->
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- SideBar -->
+            <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <!-- SideBar header -->
+            <div class="offcanvas-header text-white border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+            <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <!-- SideBar Body -->
+            <div class="offcanvas-body d-flex flex-column mx-auto">
+                <ul class="navbar-nav justify-content-center fs-5 flex-grow-1">
+                <li class="nav-item mx-2">
+                    <a class="nav-link nav-font" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link nav-font" href="#project">Project</a>
+                </li>
+                <a href="#landing" class="navbar-brand mx-3 d-none d-lg-inline keychainify-checked"><img src="./images/moon.jpg" class="nav-photo"></a>
+                <li class="nav-item mx-2">
+                    <a class="nav-link nav-font" href="#tools">Tools</a>
+                </li>
+                <li class="nav-item ms-2">
+                    <a class="nav-link nav-font" href="#contact">Contact</a>
+                </li>
+                </ul>
+            </div>
+            
+            </div>
+
+        </div>
+    </nav>
+    <!-- End of NavBar -->
+    <!-- Header -->
+    <header id="home" class="">
+        <div class="row vh-100 bg-transparent justify-content-center align-items-center pt-2" id="landing">
+                <div class="col-10 col-md-3 p-3 py-lg-2 ps-lg-5">
+                    <img src="./images/myself1.jpg" class="rounded-circle border border-dark my-photo img-fluid">
+                </div>
+                <div class="col-md-7 col-lg-5 pl-md-5 py-lg-5">
+                    <h1 class="mt-2 text-center text-md-left text-white header-one">Roche Alejandro</h1>
+                    <h3 class="my-3 text-center text-md-left text-white ">Full Stack <span class="text-danger">&lt;Web&gt;</span> Developer</h3>
+                    <p class="text-center justify-content-center text-white col-12">
+                        Coding enthusiast with expertise in HTML, CSS, Bootstrap, JavaScript, and Node.js, committed to crafting seamless web experiences. Let's turn ideas into reality.
+                    </p>
+                </div>
+            </div>
+    </header>
+    <!-- End of Header -->
+    <!-- Start of Project -->
+    <!-- ...Your existing code... -->
+
+    <!-- Project -->
+    <div class="album pt-3 bg-body-transparent" id="project">
+    <div class="container">
+            <h2 class="text-white text-center mb-5 header-two">Latest Projects</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col-md-4">
+
+          <div class="card bg-transparent border-0">
+            <a href="https://rochethep.github.io/tisaythedog/?fbclid=IwAR3FF-BtTe-JNukq1DWZGgAiY7AeYJzWzwrskzoe7QUU3bsnn3YrZsKf6Po" target="_blank"><img src="./images/Tin-dog.PNG" class="project-photo col-12"></a>
+            <div class="card-body">
+                <h3 class="text-white text-center py-2">TinDog App</h3>
+              <p class="card-text text-white">For dog lovers and fun-seekers alike! TinDog, a delightful app created for pure enjoyment, celebrates the world of our furry friends. Connect, share, and experience endless canine camaraderie. 🐾📱</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-transparent border-0">
+            <a href="https://rochethep.github.io/mySimpleGame/?fbclid=IwAR0tNgbmtxjb-pSLAA6QJZzBvU6tNA3iNYpYq5Tuu4NBEqM6I7Xf5dyHWzo" target="_blank"><img src="./images/simon-game.png" class="project-photo col-12"></a>
+            <div class="card-body">
+              <h3 class="text-white text-center py-2">Simon Game App</h3>
+              <p class="card-text text-white">A web-based tribute to the classic memory game, Simon. Put your memory skills to the test with this interactive and colorful game. How far can you go before the pattern gets the best of you?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-transparent border-0">
+            <a href="https://rochethep.github.io/DrumKit/?fbclid=IwAR16jl16477O5bVX3sKlzE2fViMq_4MTS-6ISeteR-Q7yJ4RsfK7XqeeEmY" target="_blank"><img src="./images/drum-kit.webp" class="project-photo col-12"></a>
+            <div class="card-body">
+              <h3 class="text-white text-center py-2">Drum Game App</h3>
+              <p class="card-text text-white">Get ready to drum like a pro! Play beats, create rhythms, and express your musical talent with this interactive web app.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+        <!-- End of Project -->
+        <!-- Start of Tools section -->
+        <div class="container marketing pt-5 text-center">
+            <h2 class="text-white text-center my-5 header-two" id="tools">My Tools</h2>
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4 col-6">
+        <img src="./images/logo-html5.png">
+        <h4 class="fw-normal text-white">HTML</h4>
+      </div>
+      <div class="col-lg-4 col-6">
+        <img src="./images/logo-css3.png">
+        <h4 class="fw-normal text-white">CSS</h4>
+      </div>
+      <div class="col-lg-4 col-sm-12">
+        <img src="./images/bs.png">
+        <h4 class="fw-normal text-white">Bootstrap</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-6">
+        <img src="./images/logo-javascript.png">
+        <h4 class="fw-normal text-white">JavaScript</h4>
+      </div>
+      <div class="col-lg-4 col-6">
+        <img src="./images/mongodb.png">
+        <h4 class="fw-normal text-white">MongoDB</h4>
+      </div>
+      <div class="col-lg-4 col-12">
+        <img src="./images/nodejs.png">
+        <h4 class="fw-normal text-white">NodeJS</h4>
+      </div>
+    </div>
+        <!-- End of Tools Section -->
+        <!-- Contact section -->
+        <div class="py-5 text-center">
+            <h2 class="text-white pt-5 header-two" id="contact">Contact Me</h2>
+            <p class="lead text-white cursive-font py-2">"Life is better with a burger in hand, and a smile on your face."</p>
+            <p class="text-white">Feel free to reach out and discuss your project or ideas. Just like coding, creating the perfect burger is an art, and I'm here to craft both with precision and passion.</p>
+        </div>
+        <div class="row g-5">
+            <div class="col-md-5 col-lg-4 order-md-last">
+                <h4 class="d-flex justify-content-center align-items-center mb-3">
+                    <span class="text-white">My Location</span>
+                </h4>
+                <div class="col-md-12 my-4">
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.2446966898825!2d121.12076311470095!3d14.59141419200616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b87f5c954711%3A0x74f8e3210022bae!2s1196%20Camden%2C%20Cainta%2C%201900%20Rizal!5e0!3m2!1sen!2sph!4v1663665545694!5m2!1sen!2sph" class="my-location" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="row pt-5 align-items-center">
+                        <div class="col-lg-3 col-md-3 col-3">
+                            <a href="https://www.linkedin.com/in/roche-alejandro-38baa6242/" target="_blank"><img src="./images/logo-linkedin.png" class="logo-png"></a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-3">
+                            <a href="https://secure.skype.com/portal/overview" target="_blank"><img src="./images/skype.png" class="logo-png"></a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-3">
+                            <a href="https://www.facebook.com/rochealejandro/" target="_blank"><img src="./images/facebook.png" class="logo-png"></a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-3">
+                            <a href="mailto:rocheaaron0826@gmail.com"><img src="./images/Gmail.png" class="logo-png"></a>
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="col-md-7 col-lg-8">
+
+
+
+                </div>
+      </div>
+      <div class="col-md-7 col-lg-8">
+        <form class="needs-validation" novalidate="">
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label text-white">First name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+              <div class="invalid-feedback text-white">
+                Valid first name is required.
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label text-white">Last name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+              <div class="invalid-feedback ">
+                Valid last name is required.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label text-white">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="myemail@gmail.com">
+              <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="number" class="form-label text-white">Phone Number</label>
+              <input type="number" class="form-control" id="number" placeholder="+639" required="">
+              <div class="invalid-feedback">
+                Please enter your phone number.
+              </div>
+            </div>
+
+            <div class="col-12">
+                <label for="message" class="form-label text-white">Message</label>
+              <textarea type="text" class="form-control" id="message"></textarea>
+            </div>
+            <button class="w-100 btn btn-transparent btn-lg mx-auto mt-4 text-white send-b" type="submit">Send</button>
+          </div>
+        
+        </form>
+      </div>
+    </div>
+        <!-- End of Contact section -->
+        <!-- Footer -->
+        <footer>
+            <hr class="h-line mt-2">
+                <p class="text-center text-white m-0">© RocheAlejandro</p>
+              </footer>
+        <!-- End of Footer -->
+  
+
+
+    
+   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

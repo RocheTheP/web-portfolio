@@ -1,0 +1,123 @@
+* {
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	
+}
+
+body {
+	background: url(./images/icon.jpg) rgba(0,0,0,0.5);
+	background-blend-mode: multiply;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.cursive-font {
+	font-family: 'Farsan', cursive;
+	font-size: 16pt;
+}
+
+.nav-font {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: #8DA4B5;
+	font-size: 1.3rem;
+}
+
+.header-one {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.2rem;
+}
+
+.header-two {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+@media (max-width: 991px) {
+	.sidebar {
+		background-color: rgba(255, 255, 255, 0.15);
+		backdrop-filter: 10px;
+	}
+}
+
+.nav-position {
+	position: fixed !important;
+	start:0;
+	end: 0;
+	top:0;
+	z-index: ; 
+}
+
+
+.nav-photo {
+	width: 50px;
+	height: auto;
+	border-radius: 50%;
+	background-position: center;
+	object-fit: cover;
+
+}
+
+.nav-photo:hover {
+	box-shadow: 3px 3px 5px #888888;
+	opacity: 0.5;
+}
+
+.my-photo {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%; /* Makes the photo circular */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+
+.my-photo:hover {
+  filter: brightness(1) contrast(1) blur(0px);
+}
+
+.project-photo {
+	border-radius: 5px;
+	cursor: pointer;
+	height: 200px;
+	object-fit: cover;
+	size: cover;
+	cursor: pointer;
+    transition: transform 0.5s;
+}
+
+
+.project-photo:hover {
+    opacity: 0.7;
+    border: 2px solid lightyellow;
+
+}
+
+.send-b {
+	border: 0.5px solid whitesmoke;
+	border-radius: 50px;
+}
+
+.send-b:hover {
+	background-color: #0d6efd;
+}
+
+.my-location {
+	height: 300px;
+	width: 350px;
+}
+
+.logo-png {
+	width: 40px;
+	height: 40px;
+	object-fit: cover;
+}
+
+.h-line {
+	border-color: ghostwhite;
+	border-width: 2px;
+}
